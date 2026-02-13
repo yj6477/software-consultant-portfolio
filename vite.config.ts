@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/software-consultant-portfolio/',
   resolve: {
     alias: {
       // Alias @ to the src directory
